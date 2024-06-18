@@ -12,6 +12,7 @@ from sklearn.preprocessing import StandardScaler
 import streamlit as st
 
 # Step 1: Data Preparation
+# Download the dataset if not already downloaded
 url = 'https://zenodo.org/record/1188976/files/Audio_Speech_Actors_01-24.zip'
 local_zip_file = 'ravdess.zip'
 
